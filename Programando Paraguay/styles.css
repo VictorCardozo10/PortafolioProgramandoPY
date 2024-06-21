@@ -1,0 +1,90 @@
+* {
+    font-family: 'Times New Roman', Times, serif;
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;}
+.text{
+    text-align: justify;}
+
+.header{
+    background-color: rgba(255, 255, 255, 0.521);
+    font-size: 25px;
+    width: 100%;}
+
+
+.nav{
+    max-width: fit-content;
+    margin: 15px auto;}
+.navLink{
+    text-decoration: none;
+    color: inherit;
+    padding-right: 20px;}
+.navLink:hover{
+    color: rgb(244, 20, 20);}
+
+
+.Nombre{
+    padding: 10px 10px 10px 10px;
+    text-align: center;
+    color: aliceblue;
+    background-color: rgb(60, 59, 59);}
+
+
+.AcercaDeMi{
+    max-width: fit-content;
+    margin: 50px auto;
+    font-size: 20px;
+    border: 5px;
+    border-color: black;
+    border-radius: 5px;
+}
+
+
+.Habilidades{
+    min-width: 730px;
+    max-width: 730px;
+    margin: 50px auto;}
+.button{
+    padding: 3px;
+    border-radius: 7px;
+}
+
+
+.Proyecctos{
+    min-width: 730px;
+    max-width: 730px;
+    margin: 50px auto;
+    font-size: 20px;}
+
+
+.Contacto{
+    min-width: 730px;
+    max-width: 730px;
+    margin: 50px auto;}
+
+
+.footer{
+    max-width: fit-content;
+    margin: 30px auto 0px auto;
+    padding-top: 30px;
+    padding-bottom: 40px;}
+.subFooter{
+    max-width: fit-content;
+    margin: 0px auto;}
+.FooterA{
+    background-color: rgb(60, 59, 59);}
+
+
+.icons{
+    padding: 10px;
+    color: aliceblue;
+}
+
+.insta:hover{
+    color: rgb(157, 14, 209);}
+.whats:hover{
+    color: rgb(34, 235, 44);}
+.call:hover{
+    color: rgb(28, 35, 233);}
+.mail:hover{
+    color: rgb(244, 20, 20);}
