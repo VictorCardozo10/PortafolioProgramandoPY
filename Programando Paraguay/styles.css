@@ -34,52 +34,61 @@
     max-width: fit-content;
     margin: 50px auto;
     font-size: 20px;
-    border: 5px;
-    border-color: black;
-    border-radius: 5px;
+    padding: 15px 10px 15px 10px;
+    border: 1px solid black;
+    border-radius: 15px;
 }
 
 
 .Habilidades{
     min-width: 730px;
     max-width: 730px;
-    margin: 50px auto;}
+    margin: 50px auto;
+    padding: 15px 10px 15px 10px;
+    border: 1px solid black;
+    border-radius: 15px;}
 .button{
     padding: 3px;
     border-radius: 7px;
 }
+.button:hover{
+    background-color: rgb(56, 103, 147);
+    transition: 500ms;
+}
 
 
-.Proyecctos{
+.Proyecctos{   
     min-width: 730px;
     max-width: 730px;
     margin: 50px auto;
-    font-size: 20px;}
+    font-size: 20px;
+    padding: 15px 10px 15px 10px;
+    border: 1px solid black;
+    border-radius: 15px;}
 
 
 .Contacto{
     min-width: 730px;
     max-width: 730px;
-    margin: 50px auto;}
+    margin: 50px auto;
+    padding: 15px 10px 15px 10px;
+    border: 1px solid black;
+    border-radius: 15px;}
 
 
 .footer{
     max-width: fit-content;
     margin: 30px auto 0px auto;
-    padding-top: 30px;
+    padding-top: 10px;
     padding-bottom: 40px;}
 .subFooter{
     max-width: fit-content;
     margin: 0px auto;}
 .FooterA{
     background-color: rgb(60, 59, 59);}
-
-
 .icons{
     padding: 10px;
-    color: aliceblue;
-}
-
+    color: aliceblue;}
 .insta:hover{
     color: rgb(157, 14, 209);}
 .whats:hover{
@@ -88,3 +97,9 @@
     color: rgb(28, 35, 233);}
 .mail:hover{
     color: rgb(244, 20, 20);}
+
+.h2Redes{
+    padding-top: 20px;
+    text-align: center;
+    color: aliceblue;
+}
